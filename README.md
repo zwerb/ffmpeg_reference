@@ -24,6 +24,8 @@ Lossless H.264 example:
 ffmpeg -i input.ts -c:v libx264 -crf 0 -c:a copy output.mp4
 ```
 
+ffmpeg -i ts_files/drone_video-001.ts -map 0 -c copy mp4_remux/drone_video-001.mp4
+
 
 ## Install FFMPEG (Ubuntu)
 
