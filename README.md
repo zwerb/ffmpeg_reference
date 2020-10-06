@@ -25,12 +25,13 @@ ffmpeg -i input.ts -c:v libx264 -crf 0 -c:a copy output.mp4
 ```
 
 
-## Install FFMPEG
+## Install FFMPEG (Ubuntu)
 
-sudo add-apt-repository ppa:mc3man/trusty-media
+```
 sudo apt-get update
 sudo apt-get install ffmpeg
 ffmpeg -version
+```
 
 
 
